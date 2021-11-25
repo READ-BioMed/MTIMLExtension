@@ -1,8 +1,5 @@
 package readbiomed.mme.util.pipe;
 
-import gov.nih.nlm.nls.utils.CommonWords;
-import gov.nih.nlm.nls.utils.Constants;
-
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -15,9 +12,8 @@ import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
-import readbiomed.mme.util.NGrams;
-
-
+import gov.nih.nlm.nls.utils.CommonWords;
+import gov.nih.nlm.nls.utils.Constants;
 import monq.jfa.AbstractFaAction;
 import monq.jfa.CallbackException;
 import monq.jfa.CompileDfaException;
@@ -27,6 +23,7 @@ import monq.jfa.Nfa;
 import monq.jfa.ReSyntaxException;
 import monq.jfa.ReaderCharSource;
 import monq.jfa.Xml;
+import readbiomed.mme.util.NGrams;
 
 public class PipeText
 {

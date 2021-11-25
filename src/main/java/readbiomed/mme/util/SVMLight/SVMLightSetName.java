@@ -1,15 +1,5 @@
 package readbiomed.mme.util.SVMLight;
 
-import gov.nih.nlm.nls.mti.documents.Document;
-import gov.nih.nlm.nls.mti.featuresextractors.FeatureExtractor;
-import gov.nih.nlm.nls.mti.featuresextractors.FeatureExtractorFactory;
-import gov.nih.nlm.nls.mti.instances.BinaryInstance;
-import gov.nih.nlm.nls.mti.instances.Instance;
-import gov.nih.nlm.nls.mti.instances.Instances;
-import gov.nih.nlm.nls.mti.textprocessors.TextProcessor;
-import gov.nih.nlm.nls.mti.textprocessors.TextProcessorFactory;
-import gov.nih.nlm.nls.utils.Trie;
-
 import java.io.BufferedInputStream;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
@@ -19,6 +9,16 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
+import gov.nih.nlm.nls.mti.documents.Document;
+import gov.nih.nlm.nls.mti.featuresextractors.FeatureExtractor;
+import gov.nih.nlm.nls.mti.featuresextractors.FeatureExtractorFactory;
+import gov.nih.nlm.nls.mti.instances.BinaryInstance;
+import gov.nih.nlm.nls.mti.instances.Instance;
+import gov.nih.nlm.nls.mti.instances.Instances;
+import gov.nih.nlm.nls.mti.textprocessors.TextProcessor;
+import gov.nih.nlm.nls.mti.textprocessors.TextProcessorFactory;
+import gov.nih.nlm.nls.utils.Trie;
 
 /**
  * Generate SVMLight set. For BinaryInstances.

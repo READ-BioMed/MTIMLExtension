@@ -1,8 +1,5 @@
 package readbiomed.mme.util.pipe;
 
-import gov.nih.nlm.nls.utils.CommonWords;
-import gov.nih.nlm.nls.utils.Constants;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
@@ -18,6 +15,8 @@ import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
+import gov.nih.nlm.nls.utils.CommonWords;
+import gov.nih.nlm.nls.utils.Constants;
 import monq.jfa.AbstractFaAction;
 import monq.jfa.CallbackException;
 import monq.jfa.CompileDfaException;

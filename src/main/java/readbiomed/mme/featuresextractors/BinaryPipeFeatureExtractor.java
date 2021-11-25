@@ -1,5 +1,10 @@
 package readbiomed.mme.featuresextractors;
 
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.regex.Pattern;
+
 import gov.nih.nlm.nls.mti.datasetfilters.featureselectors.bf.RemoveLowFrequencyFeatures;
 import gov.nih.nlm.nls.mti.documents.Document;
 import gov.nih.nlm.nls.mti.featuresextractors.FeatureExtractor;
@@ -9,11 +14,6 @@ import gov.nih.nlm.nls.mti.instances.Instances;
 import gov.nih.nlm.nls.utils.CommonWords;
 import gov.nih.nlm.nls.utils.Trie;
 import gov.nih.nlm.nls.utils.Utils;
-
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-import java.util.regex.Pattern;
 
 public class BinaryPipeFeatureExtractor implements FeatureExtractor
 {

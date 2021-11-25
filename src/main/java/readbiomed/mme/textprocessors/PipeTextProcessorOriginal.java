@@ -1,10 +1,5 @@
 package readbiomed.mme.textprocessors;
 
-import gov.nih.nlm.nls.mti.documents.Document;
-import gov.nih.nlm.nls.mti.textprocessors.TextProcessor;
-import gov.nih.nlm.nls.utils.Constants;
-import gov.nih.nlm.nls.utils.Trie;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -13,6 +8,11 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.regex.Pattern;
+
+import gov.nih.nlm.nls.mti.documents.Document;
+import gov.nih.nlm.nls.mti.textprocessors.TextProcessor;
+import gov.nih.nlm.nls.utils.Constants;
+import gov.nih.nlm.nls.utils.Trie;
 
 public class PipeTextProcessorOriginal extends TextProcessor
 {

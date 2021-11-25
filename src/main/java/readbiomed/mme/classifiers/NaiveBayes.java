@@ -1,14 +1,14 @@
 package readbiomed.mme.classifiers;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
 import gov.nih.nlm.nls.mti.classifiers.ova.OVAClassifier;
 import gov.nih.nlm.nls.mti.classifiers.ova.Prediction;
 import gov.nih.nlm.nls.mti.instances.BinaryInstance;
 import gov.nih.nlm.nls.mti.instances.Instance;
 import gov.nih.nlm.nls.mti.instances.Instances;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
 
 public class NaiveBayes extends OVAClassifier
 {

@@ -1,14 +1,14 @@
 package readbiomed.mme.classifiers;
 
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 import gov.nih.nlm.nls.mti.classifiers.ova.OVAClassifier;
 import gov.nih.nlm.nls.mti.classifiers.ova.Prediction;
 import gov.nih.nlm.nls.mti.classifiers.ova.bf.C45;
 import gov.nih.nlm.nls.mti.instances.Instance;
 import gov.nih.nlm.nls.mti.instances.Instances;
-
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 
 /**
  * Implementation of AdaBoostM1, this implementation uses binary features and has C.45 as the default base learning algorithm 

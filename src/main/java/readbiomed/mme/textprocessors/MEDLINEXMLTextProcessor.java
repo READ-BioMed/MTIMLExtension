@@ -28,16 +28,15 @@
 ***************************************************************************/
 package readbiomed.mme.textprocessors;
 
-import gov.nih.nlm.nls.mti.documents.Document;
-import gov.nih.nlm.nls.mti.textprocessors.TextProcessor;
-import gov.nih.nlm.nls.utils.Trie;
-
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+import gov.nih.nlm.nls.mti.documents.Document;
+import gov.nih.nlm.nls.mti.textprocessors.TextProcessor;
+import gov.nih.nlm.nls.utils.Trie;
 import monq.jfa.AbstractFaAction;
 import monq.jfa.CallbackException;
 import monq.jfa.Dfa;
